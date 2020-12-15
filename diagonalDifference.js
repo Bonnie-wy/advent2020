@@ -5,9 +5,6 @@ function diagonalDifference(arr) {
   
     for (let i=0; i < arr.length; i++){
         numberOne += arr[i][i];
-    }
-
-    for (let i=0; i < arr.length; i++){
         numberTwo += arr[i][arr.length-1 - i];
     }
 
